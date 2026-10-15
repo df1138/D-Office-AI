@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OfficeClone" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#1A5F7A</item>
+        <item name="android:statusBarColor">#101820</item>
+        <item name="android:navigationBarColor">#101820</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.OfficeClone.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0B2340</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.OfficeClone</item>
+    </style>
+</resources>

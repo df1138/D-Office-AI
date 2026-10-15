@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OfficeClone</string>
+    <!-- Replace with the OAuth Web application client ID from Google Cloud Console. -->
+    <string name="default_web_client_id" translatable="false">REPLACE_ME.apps.googleusercontent.com</string>
+</resources>
